@@ -12,26 +12,32 @@ Todo ello no seria posible sin la aplicación del filosofía de **software como 
 
 
 ## Despliegue del proyecto 🚀
-A continuación se provee información para poder correr de forma local **Reltery.com**.
+A continuación se provee información para poder correr de forma local **Reltery.com**. Se implementaron las tecnologías **django** del lado del servidor, almacenando el modelo de inteligencia artificial, y **react** del lado del cliente proporcionando diversas funcionalidades al usuario en base a las consultas realizadas al servidor.
+
+## Frontend
+
+### Requerimientos 📋
+```
+npm
+node
+```
+### Instalación 🔧
+En el directorio raíz del proyecto
+```
+npm install
+npm run start-dev
+```
 
 ## Backend
 
 ### Requerimientos 📋
-
 ```
 Python3
 pip
 virtualenv
 ```
-
 ### Instalación 🔧
-
-```
-git clone [project_url]
-```
-
 En el directorio raíz del proyecto
-
 ```
 virtualenv venv (as administrator or sudo)
 cd venv\
@@ -39,7 +45,6 @@ source bin\activate (linux)
 Scripts\activate (windows)
 ```
 Activar el entorno virtual
-
 ```
 pip3 install -r requirements.txt
 python3 manage.py makemigrations
