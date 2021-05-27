@@ -11,17 +11,23 @@ Nuestro **modelo basado en redes neuronales** toma aspectos físicos y económic
 Todo ello no seria posible sin la aplicación del filosofía de **software como servicio**, con un servidor dedicado a la implementación del modelo de inteligencia artificial, que provee servicio a diversas aplicaciones adaptadas a los dispositivos presentes en el mercado, brindando así una mejor experiencia de al usuario y permitiendo a los desarrolladores implementar mejoras o adecuaciones al modelo.
 
 
-## Despliegue del proyecto 🚀
-A continuación se provee información para poder correr de forma local **Reltery.com**. Se implementaron las tecnologías **django** del lado del servidor, almacenando el modelo de inteligencia artificial, y **react** del lado del cliente proporcionando diversas funcionalidades al usuario en base a las consultas realizadas al servidor.
+## Desarrollo del proyecto 
+A continuación se provee información para poder correr de forma local **Reltery.com**. Se implementaron las tecnologías **django** del lado del servidor, almacenando el modelo de inteligencia artificial, y **react** del lado del cliente proporcionando diversas funcionalidades al usuario en base a las consultas realizadas al servidor. Para el desarrollo del modelo de red neuronal se implementó **Keras**.
+
+![](imgs/django.png)
+![](imgs/reactjs.png)
+![](imgs/keras.png)
+
+## Despliegue del proyecto 
 
 ## Frontend
 
-### Requerimientos 📋
+### Requerimientos 
 ```
 npm
 node
 ```
-### Instalación 🔧
+### Instalación 
 En el directorio raíz del proyecto
 ```
 npm install
@@ -30,13 +36,13 @@ npm run start-dev
 
 ## Backend
 
-### Requerimientos 📋
+### Requerimientos 
 ```
 Python3
 pip
 virtualenv
 ```
-### Instalación 🔧
+### Instalación 
 En el directorio raíz del proyecto
 ```
 virtualenv venv (as administrator or sudo)
