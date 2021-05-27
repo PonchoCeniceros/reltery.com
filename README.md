@@ -74,3 +74,5 @@ python3 manage.py createsuperuser
 python3 manage.py runserver
 Access localhost:8000
 ```
+---
+Este es un proyecto para la clase de Inteligencia Artificial. Desarrolladores: @lucapame, @PonchoCeniceros .
