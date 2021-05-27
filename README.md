@@ -27,11 +27,11 @@ A continuación se provee información para poder correr de forma local **Relter
 </p>
 
 ## Material adicional
+[Video promocional](https://www.youtube.com/watch?v=DbNw3UEe5C8)
+
 [Desarrollo del modelo de inteligencia artificial](https://github.com/PonchoCeniceros/reltery.com/blob/main/reltery_model.ipynb)
 
 [Dataset implementado, modelo y pesos calculados](https://github.com/PonchoCeniceros/reltery.com/tree/main/BACK-END/db)
-
-[Video promocional](https://www.youtube.com/watch?v=DbNw3UEe5C8)
 
 [Demo del proyecto en Heroku](https://realty-com.herokuapp.com/) (los servidores de Heroku podrían estar en suspensión a la hora de una prueba. Dado el caso intentar de nuevo)
 
